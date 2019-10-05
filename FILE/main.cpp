@@ -36,8 +36,9 @@ int main()
    while(!file.eof())
    {
 
-        file>>ch;
-        cout<<ch;
+      cout<<ch;  
+      file>>ch;
+        
 
    }
 
